@@ -2,7 +2,7 @@ library(readxl)
 library(DescTools)
 library(tidyverse)
 
-p11 <- readxl::read_excel("C:\Users\eajtrnu\Desktop\OSS\4.1\Statistika\Seminar\p13.xlsx",
+p11 <- readxl::read_excel("C:\Users\eajtrnu\Desktop\OSS\4.1\Statistika\Seminar\p13.xlsx", #edit the data file path, according to your need
                   range = "A2:A311")
 vrijeme = p11$vrijeme
 
